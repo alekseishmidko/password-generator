@@ -1,0 +1,93 @@
+.generator {
+}
+.generator__title {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-size: 32px;
+    color:azure;
+}
+.generator__content {
+    padding: 14px;
+    background-color: #343434;
+    border: 1px solid rgb(16, 16, 16);
+    border-radius: 5px;
+    height: 350px;
+    width: 700px;
+}
+.generator__btn {
+    background-color: #005eff;
+    cursor: pointer;
+}
+.generator__password{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    width: 15%;
+    padding: 10px 0;
+    font-size: 24px;
+    color:aliceblue;
+   
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #545454
+}
+.generator__settings {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.generator__settings-title {
+    left: 260px;
+    top: 0px;
+    
+    font-size: 20px;
+    color:aliceblue;
+
+}
+.generator__settings-length {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    display: block;
+    padding: 3px 20px;
+
+}
+.length__block-title{
+    font-size: 24px;
+    position: absolute;
+    color:aliceblue;
+    top: 60px;
+}
+.add__block {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 250px;
+
+    color: #f3f1f1;
+}
+.add__block-tumblers{
+    position: absolute;
+    top: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+.include__block-title {
+    font-size: 24px;
+}
+.input .checkbox {
+    transform: scale(35);
+}
